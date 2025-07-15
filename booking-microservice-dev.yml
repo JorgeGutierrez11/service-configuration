@@ -3,6 +3,10 @@ booking:
 
 spring:
   jpa:
+    datasource:
+      url: jdbc:mysql://localhost:3306/bookingdb
+      username: root
+      password: 1000depan
     hibernate:
       ddl-auto: update
     show-sql: true
