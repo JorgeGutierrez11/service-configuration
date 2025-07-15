@@ -2,11 +2,11 @@ booking:
   property: Booking Profile Dev
 
 spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/bookingdb
+    username: root
+    password: 1000depan
   jpa:
-    datasource:
-      url: jdbc:mysql://localhost:3306/bookingdb
-      username: root
-      password: 1000depan
     hibernate:
       ddl-auto: update
     show-sql: true
