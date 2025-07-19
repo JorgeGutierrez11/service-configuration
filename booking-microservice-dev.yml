@@ -3,7 +3,6 @@ booking:
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/bookingdb
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
